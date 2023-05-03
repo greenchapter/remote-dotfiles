@@ -4,7 +4,5 @@ ZSH_THEME="lukerandall"
 plugins=(git zsh-fzf-history-search)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-export PS1='%{$fg_bold[white]%}$USER%{$reset_color%}$fg[white]%}@%M %{$fg_bold[blue]%}%2~%{$reset_color%} $(git_prompt_info)%B»%b '
+PROMPT='%{$fg_bold[white]%}%n%{$reset_color%}@%m %{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 alias zshconfig="vim ~/.zshrc"
