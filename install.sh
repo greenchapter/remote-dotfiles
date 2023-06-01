@@ -15,3 +15,10 @@ ln -sfT ~/.remote-dotfiles/.zshrc ~/.zshrc
 # Reload zsh shell configuration
 source ~/.zshrc
 
+
+ln -sfT ~/.remote-dotfiles/.vimrc ~/.vimrc
+
+
+
+# Install vim plugins
+vim +'PlugInstall --sync' +qa
