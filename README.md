@@ -6,7 +6,7 @@
 
 Clone the **remote-dotfiles** repository from Github.
 ```bash
-git clone https://github.com/greenchapter/remote-dotfiles.git ~/.remote-dotfiles`
+git clone https://github.com/greenchapter/remote-dotfiles.git ~/.remote-dotfiles
 ```
 
 ```bash
